@@ -1,7 +1,10 @@
 /**
-*	Bubble-Sort's implementation
-*	For using in browser, it exposes window.bubbleSort function
-*	For node, do require('bubble-sort')
+*	Bubble sort implementation
+*
+*	For browser, it exposes window.sort.bubbleSort function
+*	
+*	For node, it exposes require('sorting').bubbleSort function
+*	do npm install sorting
 *
 *	@author Lakha Singh
 */
