@@ -1,3 +1,10 @@
+/**
+*	Bubble-Sort's implementation
+*	For using in browser, it exposes window.bubbleSort function
+*	For node, do require('bubble-sort')
+*
+*	@author Lakha Singh
+*/
 
 (function(){
 	var bubbleSort = function( arr ){
@@ -18,7 +25,8 @@
 
 	// Supporting browser and node env
 	if ( typeof window === 'object' ){
-		window.bubbleSort = bubbleSort;
+		window.sort = window.sort || {};
+		window.sort.bubbleSort = bubbleSort;
 	}
 	else if ( typeof module === 'object' ){
 		module.exports = bubbleSort;
