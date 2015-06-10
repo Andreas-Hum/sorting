@@ -1,6 +1,6 @@
 {
-  "name": "Sorting",
-  "version": "1.0.0",
+  "name": "sorting",
+  "version": "1.0.1",
   "description": "Javascript implementation of popular sorting algorithms",
   "main": "init.js",
   "directories": {
@@ -14,16 +14,13 @@
     "url": "https://github.com/lakhaNamdhari/sorting"
   },
   "keywords": [
-    "bubble",
-    "sort",
-    "quick",
-    "sort",
-    "merge",
-    "sort",
-    "insertion",
-    "sort",
-    "selection",
-    "sort"
+    "sorting library",
+    "sorting",
+    "bubble sort",
+    "quick sort",
+    "merge sort",
+    "insertion sort",
+    "selection sort"
   ],
   "author": "Lakha Singh <polizic@yahoo.co.in>",
   "license": "MIT",
